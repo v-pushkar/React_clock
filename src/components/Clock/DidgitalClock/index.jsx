@@ -11,11 +11,11 @@ const DigitalClock = props => {
     <div className="digitalClockWrapper">
       <div className="digitalClockBopx" style={{ color: `${props.textColor}` }}>
         {isHouers && (
-          <div className="houers">{houers < 10 ? "0" + houers : houers}</div>
+          <div className="houers">{houers < 10 ? "0" + houers : houers}:</div>
         )}
         {isMinutes && (
           <div className="minutes">
-            :{minutes < 10 ? "0" + minutes : minutes}
+            {minutes < 10 ? "0" + minutes : minutes}
           </div>
         )}
         {isSeconds && (
