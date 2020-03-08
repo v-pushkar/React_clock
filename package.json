@@ -1,5 +1,5 @@
 {
-  "name": "clock",
+  "name": "react-clock",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,5 +32,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Use a clock with analog or digital views in you ReactJS app. Set your settings and styles, what you want.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-pushkar/React_clock.git"
+  },
+  "keywords": [
+    "Clock",
+    "digital",
+    "analog",
+    "react",
+    "component"
+  ],
+  "author": "valerii.pushkar.work@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-pushkar/React_clock/issues"
+  },
+  "homepage": "https://github.com/v-pushkar/React_clock#readme"
 }
