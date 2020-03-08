@@ -47,8 +47,8 @@ class ClockExample extends PureComponent {
         <header className="header">
           <div className="container">
             <nav>
-              <a href="/">Git</a>
-              <a href="/">npm</a>
+              <a href="https://github.com/v-pushkar/React_clock">Git</a>
+              {/* <a href="/">npm</a> */}
             </nav>
           </div>
         </header>
