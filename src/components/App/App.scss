@@ -1,0 +1,83 @@
+.app {
+  background-color: darkslategrey;
+  padding: 20px 0;
+
+  .ReactClockPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: cadetblue;
+
+    .tableWrapper {
+      margin-top: 30px;
+
+      table {
+        width: 500px;
+      }
+
+      table,
+      td,
+      th {
+        border-collapse: collapse;
+        border: 2px solid;
+      }
+
+      td,
+      th {
+        border-collapse: collapse;
+        border: 2px solid;
+        padding: 3px 10px;
+      }
+    }
+
+    .clocsTitle {
+      width: 500px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .discription {
+      pre {
+        padding: 10px;
+        border: 1px solid;
+      }
+    }
+
+    header {
+      width: 100%;
+      padding-bottom: 15px;
+      border-bottom: 1px solid orangered;
+
+      nav {
+        width: 80%;
+        margin: auto;
+
+        a {
+          margin-left: 20px;
+          text-transform: uppercase;
+          font-size: 100%;
+          font-weight: bold;
+          color: orangered;
+          border: 1px solid;
+          padding: 3px 5px;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .clock-Wrapper {
+      padding: 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      width: 500px;
+
+    }
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+}
+

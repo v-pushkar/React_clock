@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,600,700,800,900&display=swap');
+$arrows_color: #d40909;
+$clock_bg: transparent;
+$dital_text_color: #fce903;
+
+.ClockWrapper {
+    position: relative;
+
+    .clockBox {
+        background-color: $clock_bg;
+        // position: absolute;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+
+        &.defaultSt {
+            width: 200px;
+            height: 200px;
+        }
+
+        .centerPoint {
+            position: absolute;
+            left: calc(50% - 3px);
+            top: calc(50% - 3px);
+            width: 6px;
+            height: 6px;
+            background-color: $arrows_color;
+            border-radius: 50%;
+        }
+
+        .minuteArrow {
+            position: absolute;
+            top: calc(50% - 2px);
+            width: 100%;
+            height: 4px;
+
+            span {
+                position: absolute;
+                right: 0;
+                height: 4px;
+                width: 40%;
+                content: "";
+                background-color: $arrows_color;
+
+            }
+        }
+
+        .secondsArrow {
+            position: absolute;
+            top: calc(50% - 1px);
+            width: 100%;
+            height: 2px;
+
+            span {
+                position: absolute;
+                right: 0;
+                height: 2px;
+                width: 40%;
+                content: "";
+                background-color: $arrows_color;
+
+            }
+        }
+
+        .hourArrow {
+            position: absolute;
+            top: calc(50% - 2px);
+            width: 100%;
+            height: 4px;
+
+
+            span {
+                position: absolute;
+                background-color: $arrows_color;
+                right: 10%;
+                height: 4px;
+                width: 30%;
+                content: "";
+
+            }
+
+        }
+
+        .clockScale {
+            span {
+                position: absolute;
+                top: calc(50% - 1px);
+                right: 0;
+                width: 100%;
+                height: 2px;
+
+                &.hurelScale {
+                    span {
+                        width: 10px;
+                    }
+                }
+
+                span {
+                    position: absolute;
+                    right: 0;
+                    height: 2px;
+                    width: 2px;
+                    content: "";
+                    background-color: $arrows_color;
+
+                }
+
+            }
+        }
+    }
+
+    .digitalClockWrapper {
+        padding: 20px;
+        font-family: 'Orbitron', sans-serif;
+        // position: absolute;
+        font-size: 120%;
+
+        .digitalClockBopx {
+            color: $dital_text_color;
+            display: flex;
+            flex-direction: row;
+
+            .seconds {}
+
+            .minutes {}
+
+            .houers {}
+        }
+    }
+
+}
